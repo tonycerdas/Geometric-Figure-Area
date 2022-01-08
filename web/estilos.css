@@ -1,0 +1,30 @@
+.all {
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    z-index: 15;
+    top: 50%;
+    left: 50%;
+    margin: -100px 0 0 -150px;
+}
+
+#divA input,
+#divB input,
+#selectFigura,
+.areaText input {
+    width: 200px;
+}
+
+.enviar,
+.clean {
+    display: inline-flex;
+    padding: 7px;
+}
+
+.inputInvalido input {
+    border: #fd3a3a solid .125rem;
+}
+
+.inputValido input {
+    border: lightgreen solid .125rem;
+}
